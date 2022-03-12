@@ -1,0 +1,87 @@
+proxies:
+- name: biznet
+  type: trojan
+  server: id2-trojan.bonds.id
+  port: 443
+  password: 8776fe40-79ff-11ec-9cbf-1239d0255272
+  udp: true
+  sni: api61-core-c-useast1a.tiktokv.com
+  apln:
+  - http/1.1
+  skip-cert-verify: true
+- name: uninet
+  type: trojan
+  server: idtj-uninet.bonds.id
+  port: 443
+  password: a6d89950-7376-11ec-87f1-1239d0255272
+  udp: true
+  sni: api61-core-c-useast1a.tiktokv.com
+  apln:
+  - http/1.1
+  skip-cert-verify: true
+- name: grpc
+  type: vmess
+  server: idv3.xserv.cc
+  port: 443
+  uuid: 913868e9-e257-48fc-9281-8d0661150edb
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: true
+  tls: true
+  servername: api61-core-c-useast1a.tiktokv.com
+  network: grpc
+  grpc-opts:
+    grpc-service-name: "gRPC"
+- name: NUSA
+  type: vmess
+  server: idv1.xserv.cc
+  port: 443
+  uuid: 7d424649-616b-44de-9ac1-0ff3641ea396
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-path: /v2ray
+  ws-headers: 
+     Host: api61-core-c-useast1a.tiktokv.com
+  allowinsecure: true
+  servername: api61-core-c-useast1a.tiktokv.com
+  udp: true       
+- name: SGGS
+  type: trojan
+  server: sggs-trojan.bonds.id
+  port: 443
+  password: 7eb7e380-3bd3-11ec-b77b-1239d0255272
+  udp: true
+  sni: api61-core-c-useast1a.tiktokv.com
+  apln:
+  - http/1.1
+  skip-cert-verify: true
+- name: NETARA
+  type: trojan
+  server: idtj-tifa.bonds.id
+  port: 443
+  password: 5bf19070-79ff-11ec-8236-1239d0255272
+  udp: true
+  sni: api61-core-c-useast1a.tiktokv.com
+  apln:
+  - http/1.1
+  skip-cert-verify: true
+- name: TRIAL
+  type: vmess
+  server: biz2ray.ipservers.xyz
+  port: 443
+  uuid: 187bc019-6178-437a-827f-72421e7c83bf
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-path: /vvip
+  ws-headers: 
+     Host: api61-core-c-useast1a.tiktokv.com
+  allowinsecure: true
+  servername: api61-core-c-useast1a.tiktokv.com
+  udp: true       

@@ -1,0 +1,34 @@
+payload:
+
+  # Dukung channel saya dengan tekan subscribe di Master Wifi Netwok Solution
+  # Aktifkan tombol lonceng agar bisa selalu dapat informasi terbaru dari saya
+  # Silahkan di share jika informasi saya bermanfaat
+  # Bagi yang ingin sawer untuk keberlanjutan silahkan melalui di bawah ini
+  # via rekenng bank No. Rek : 453401017095532 a.n : MUHAMMAD YUSUF
+  # lain nya di https://sites.google.com/view/masterwifinetworksoluton/bantu-masterwifi
+  
+  # > Disney Plus
+  - PROCESS-NAME,com.disney.disneyplus
+  - DOMAIN-SUFFIX,adobedtm.com
+  - DOMAIN-SUFFIX,bam.nr-date.net
+  - DOMAIN-SUFFIX,bamgrid.com
+  - DOMAIN-SUFFIX,braze.com
+  - DOMAIN-SUFFIX,cdn.optimizely.com
+  - DOMAIN-SUFFIX,cdn.registerdisney.go.com
+  - DOMAIN-SUFFIX,cws.conviva.com
+  - DOMAIN-SUFFIX,d9.flashtalking.com
+  - DOMAIN-SUFFIX,disney.demdex.net
+  - DOMAIN-SUFFIX,disney.my.sentry.io
+  - DOMAIN-SUFFIX,disneyplus.bn5x.net
+  - DOMAIN-SUFFIX,disneyplus.com
+  - DOMAIN-SUFFIX,disneyplus.com.ssl.sc.omtrdc.net
+  - DOMAIN-SUFFIX,disney-plus.net
+  - DOMAIN-SUFFIX,disney-portal.my.onetrust.com
+  - DOMAIN-SUFFIX,dssott.com
+  - DOMAIN-SUFFIX,execute-api.us-east-1.amazonaws.com
+  - DOMAIN-SUFFIX,js-agent.newrelic.com
+  - DOMAIN-SUFFIX,www.hotstar.com
+  - DOMAIN-SUFFIX,persona.hotstar.com
+  - DOMAIN-SUFFIX,secure-media.hotstarext.com
+  - DOMAIN-SUFFIX,api.hotstar.com
+  - DOMAIN-SUFFIX,secure-media.hotstar.com

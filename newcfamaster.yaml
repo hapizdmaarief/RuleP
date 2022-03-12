@@ -1,0 +1,80 @@
+proxies:
+- name: biznet
+  type: trojan
+  server: id2-trojan.bonds.id
+  port: 443
+  password: 8776fe40-79ff-11ec-9cbf-1239d0255272
+  udp: true
+  sni: api2-t3.musical.ly
+- name: uninet
+  type: trojan
+  server: idtj-uninet.bonds.id
+  port: 443
+  password: a6d89950-7376-11ec-87f1-1239d0255272
+  udp: true
+  sni: api2-t3.musical.ly
+  apln:
+  - http/1.1
+  skip-cert-verify: true
+- name: BIZNET V
+  type: vmess
+  server: idv3.xserv.cc
+  port: 443
+  uuid: 57e04cec-3779-43bb-8912-cd4f1ccf4617
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-path: /v2ray
+  ws-headers: 
+     Host: idv3.xserv.cc
+  allowinsecure: true
+  servername: api2-t3.musical.ly
+  udp: true
+- name: NUSA
+  type: vmess
+  server: idv1.xserv.cc
+  port: 443
+  uuid: ba56b116-4962-475f-bb72-e461bbf44cf0
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-path: /v2ray
+  ws-headers: 
+     Host: idv1.xserv.cc
+  allowinsecure: true
+  servername: api2-t3.musical.ly
+  udp: true       
+- name: SGGS
+  type: trojan
+  server: sggs-trojan.bonds.id
+  port: 443
+  password: 7eb7e380-3bd3-11ec-b77b-1239d0255272
+  udp: true
+  sni: api2-t3.musical.ly
+  apln:
+  - http/1.1
+  skip-cert-verify: true
+- name: NETARA
+  type: trojan
+  server: idtj-tifa.bonds.id
+  port: 443
+  password: 5bf19070-79ff-11ec-8236-1239d0255272
+  udp: true
+  sni: api2-t3.musical.ly
+  apln:
+  - http/1.1
+  skip-cert-verify: true
+- name: SG M247
+  type: trojan
+  server: sg7-trojan.bonds.id
+  port: 443
+  password: 440ddc30-7c79-11ec-b11a-1239d0255272
+  udp: true
+  sni: api2-t3.musical.ly
+  apln:
+  - http/1.1
+  skip-cert-verify: true
